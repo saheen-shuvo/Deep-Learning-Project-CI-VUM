@@ -49,7 +49,6 @@ Multiple models are implemented, trained, evaluated, and compared for each task.
 ## 🗂️ Project Structure
 
 CI_SP/
-│
 ├── src/
 │   ├── 01_medical_prepare.py
 │   ├── 02_medical_train_cnn.py
