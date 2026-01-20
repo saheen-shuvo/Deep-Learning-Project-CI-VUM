@@ -50,40 +50,40 @@ Multiple models are implemented, trained, evaluated, and compared for each task.
 
 CI_SP/
 │
-├── src/                          # Source code
-│   ├── 01_medical_prepare.py         # Download & prepare PneumoniaMNIST
-│   ├── 02_medical_train_cnn.py       # Medical CNN model training
-│   ├── 03_medical_train_transfer.py  # Transfer learning (MobileNetV2)
-│   ├── 04_text_prepare.py            # IMDB dataset preparation
-│   ├── 05_text_train_lstm.py         # Sentiment analysis using LSTM
-│   ├── 06_text_train_mlp.py          # Sentiment analysis using MLP
-│   └── 07_evaluate_and_plots.py      # Model comparison & evaluation plots
+├── src/
+│   ├── 01_medical_prepare.py
+│   ├── 02_medical_train_cnn.py
+│   ├── 03_medical_train_transfer.py
+│   ├── 04_text_prepare.py
+│   ├── 05_text_train_lstm.py
+│   ├── 06_text_train_mlp.py
+│   └── 07_evaluate_and_plots.py
 │
-├── outputs/                      # Generated results
-│   ├── medical/                     # Medical model outputs
-│   │   ├── *.png                    # Accuracy & loss plots
-│   │   ├── *_history.json           # Training history
-│   │   ├── *_confusion_matrix.txt   # Confusion matrices
-│   │   └── *_classification_report.txt
+├── outputs/
+│   ├── medical/
+│   │   ├── accuracy_loss.png
+│   │   ├── cnn_history.json
+│   │   ├── cnn_confusion_matrix.txt
+│   │   └── cnn_classification_report.txt
 │   │
-│   └── sentiment/                   # Sentiment model outputs
-│       ├── *.png
-│       ├── *_history.json
-│       ├── *_confusion_matrix.txt
-│       └── *_classification_report.txt
+│   └── sentiment/
+│       ├── accuracy_loss.png
+│       ├── lstm_history.json
+│       ├── lstm_confusion_matrix.txt
+│       └── lstm_classification_report.txt
 │
-├── docs/                         # Documentation
-│   ├── report.docx                  # Coursework report
-│   ├── test_cases.md                # Test cases
-│   ├── user_manual.md               # User manual
-│   ├── user_manual.pdf              # User manual (PDF)
-│   ├── architecture.png             # System architecture diagram
-│   └── workflow.png                 # Workflow diagram
+├── docs/
+│   ├── report.docx
+│   ├── test_cases.md
+│   ├── user_manual.md
+│   ├── user_manual.pdf
+│   ├── architecture.png
+│   └── workflow.png
 │
-├── README.md                     # Project overview (GitHub)
-├── requirements.txt              # Python dependencies
-├── .gitignore                    # Git ignore rules
-└── ci_env/                       # Virtual environment (ignored in Git)
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── ci_env/
 
 
 ---
