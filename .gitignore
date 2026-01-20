@@ -1,0 +1,41 @@
+# =========================
+# Virtual Environment
+# =========================
+ci_env/
+
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# Model files (very large)
+# =========================
+*.keras
+*.h5
+
+# =========================
+# Logs and temp files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Jupyter checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Optional: outputs (UNCOMMENT if needed)
+# =========================
+# outputs/

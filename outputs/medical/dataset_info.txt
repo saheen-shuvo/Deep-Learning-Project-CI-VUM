@@ -1,0 +1,6 @@
+Dataset: PneumoniaMNIST (MedMNIST)
+Task: Binary classification (normal vs pneumonia)
+Train shape: (4708, 28, 28), labels: (4708, 1)
+Val shape:   (524, 28, 28), labels: (524, 1)
+Test shape:  (624, 28, 28), labels: (624, 1)
+Label mapping (binary): 0=normal, 1=pneumonia

@@ -1,0 +1,5 @@
+Dataset: IMDB Reviews (Keras built-in)
+Vocab size: 10000
+Train size: 20000
+Val size:   5000
+Test size:  25000
