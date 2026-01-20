@@ -46,47 +46,6 @@ Multiple models are implemented, trained, evaluated, and compared for each task.
 
 ---
 
-## 🗂️ Project Structure
-
-CI_SP/
-├── src/
-│   ├── 01_medical_prepare.py
-│   ├── 02_medical_train_cnn.py
-│   ├── 03_medical_train_transfer.py
-│   ├── 04_text_prepare.py
-│   ├── 05_text_train_lstm.py
-│   ├── 06_text_train_mlp.py
-│   └── 07_evaluate_and_plots.py
-│
-├── outputs/
-│   ├── medical/
-│   │   ├── accuracy_loss.png
-│   │   ├── cnn_history.json
-│   │   ├── cnn_confusion_matrix.txt
-│   │   └── cnn_classification_report.txt
-│   │
-│   └── sentiment/
-│       ├── accuracy_loss.png
-│       ├── lstm_history.json
-│       ├── lstm_confusion_matrix.txt
-│       └── lstm_classification_report.txt
-│
-├── docs/
-│   ├── report.docx
-│   ├── test_cases.md
-│   ├── user_manual.md
-│   ├── user_manual.pdf
-│   ├── architecture.png
-│   └── workflow.png
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── ci_env/
-
-
----
-
 ## ⚙️ Setup Instructions (Windows)
 
 ````bash
